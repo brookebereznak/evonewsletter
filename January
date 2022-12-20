@@ -1,0 +1,131 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Helping marketers build interactive emails."/><meta name="robots" content="noindex, nofollow"/><link rel="icon" href="/icon32.png"/><link rel="apple-touch-icon" href="/icon32.png"/><meta property="twitter:title" content="Mailmodo : Helping marketers build interactive emails"/><meta name="twitter:card" content="summary_large_image"/><meta property="twitter:url" content="https://www.mailmodo.com/"/><meta property="twitter:description" content="Helping marketers build interactive emails."/><meta property="twitter:type" content="website"/><meta property="twitter:image:src" content="./icon512.png"/><meta property="og:title" content="Mailmodo : Helping marketers build interactive emails"/><meta property="og:site_name" content="mailmodo.com"/><meta property="og:url" content="https://www.mailmodo.com"/><meta property="og:description" content="Helping marketers build interactive emails."/><meta property="og:type" content="website"/><meta property="og:image" content="./icon512.ong"/><title>Mailmodo : Helping marketers build interactive emails</title><script>!(function () {
+        var analytics = (window.analytics = window.analytics || []);
+        if (!analytics.initialize)
+          if (analytics.invoked)
+            window.console &&
+              console.error &&
+              console.error('Segment snippet included twice.');
+          else {
+            analytics.invoked = !0;
+            analytics.methods = [
+              'trackSubmit',
+              'trackClick',
+              'trackLink',
+              'trackForm',
+              'pageview',
+              'identify',
+              'reset',
+              'group',
+              'track',
+              'ready',
+              'alias',
+              'debug',
+              'page',
+              'once',
+              'off',
+              'on',
+              'addSourceMiddleware',
+              'addIntegrationMiddleware',
+              'setAnonymousId',
+              'addDestinationMiddleware',
+            ];
+            analytics.factory = function (e) {
+              return function () {
+                var t = Array.prototype.slice.call(arguments);
+                t.unshift(e);
+                analytics.push(t);
+                return analytics;
+              };
+            };
+            for (var e = 0; e < analytics.methods.length; e++) {
+              var key = analytics.methods[e];
+              analytics[key] = analytics.factory(key);
+            }
+            analytics.load = function (key, e) {
+              var t = document.createElement('script');
+              t.type = 'text/javascript';
+              t.async = !0;
+              t.src =
+                'https://cdn.segment.com/analytics.js/v1/' +
+                key +
+                '/analytics.min.js';
+              var n = document.getElementsByTagName('script')[0];
+              n.parentNode.insertBefore(t, n);
+              analytics._loadOptions = e;
+            };
+            var segmentKey =
+              window.location.hostname === 'manage.mailmodo.com'
+                ? 'DYQ2FO3vlsQEU1xGe6SRbEL9eyyYf9CI'
+                : '';
+            analytics._writeKey = segmentKey;
+            analytics.SNIPPET_VERSION = '4.15.3';
+            analytics.load(segmentKey);
+          }
+      })();</script><script src="https://cdn.firstpromoter.com/fpr.js" async></script><script>(function (w) {
+        w.fpr =
+          w.fpr ||
+          function () {
+            w.fpr.q = w.fpr.q || [];
+            w.fpr.q[arguments[0] == 'set' ? 'unshift' : 'push'](arguments);
+          };
+      })(window);
+      fpr('init', { cid: 'kv7usm29' });
+      fpr('click');</script><script>window.fwSettings = {
+        widget_id: 84000001586,
+      };
+      !(function () {
+        if ('function' != typeof window.FreshworksWidget) {
+          var n = function () {
+            n.q.push(arguments);
+          };
+          (n.q = []), (window.FreshworksWidget = n);
+        }
+      })();
+      window.FreshworksWidget('hide', 'launcher');</script><script src="https://ind-widget.freshworks.com/widgets/84000001586.js" async defer="defer"></script><style>#pingpongchat {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        height: 75px;
+        background: url(https://mmstoragedebug.blob.core.windows.net/userdata/822858ad-faec-43bb-8cf1-8c23df1cb69c%2Ftemplates%2F1669030760435_Group%203.png)
+          no-repeat;
+        width: 70px;
+        background-size: 100%;
+        z-index: 99999999999;
+        cursor: pointer;
+      }</style><div id="pingpongchat" onclick="window.fcWidget.open();"></div><script>function initFreshChat() {
+        window.fcWidget.init({
+          config: {
+            disableNotifications: true,
+            headerProperty: {
+              // appName: 'Pingpong',
+              hideChatButton: true,
+            },
+          },
+          token: 'dfde2ea7-5b5c-4176-b8c0-ec9b633dc3e8',
+          host: 'https://wchat.in.freshchat.com',
+        });
+        window.fcWidget.on('widget:opened', function (resp) {
+          const pingpong = document.getElementById('pingpongchat');
+          pingpong.style.display = 'none';
+        });
+        window.fcWidget.on('widget:closed', function (resp) {
+          const pingpong = document.getElementById('pingpongchat');
+          pingpong.style.display = 'block';
+        });
+      }
+      function initialize(i, t) {
+        var e;
+        i.getElementById(t)
+          ? initFreshChat()
+          : (((e = i.createElement('script')).id = t),
+            (e.async = !0),
+            (e.src = 'https://wchat.in.freshchat.com/js/widget.js'),
+            (e.onload = initFreshChat),
+            i.head.appendChild(e));
+      }
+      function initiateCall() {
+        initialize(document, 'Freshdesk Messaging-js-sdk');
+      }
+      window.addEventListener
+        ? window.addEventListener('load', initiateCall, !1)
+        : window.attachEvent('load', initiateCall, !1);</script></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"><
